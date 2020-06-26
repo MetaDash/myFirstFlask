@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title%}{% endblock %}</title>
+    {% block extra_css %} {% endblock %}
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+
+    {% block extra_js %}{% endblock %}
+  </body>
+</html>
+
+
