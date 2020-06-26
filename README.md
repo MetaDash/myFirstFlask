@@ -9,6 +9,3 @@ Flask try to make my first personal home page
 - pipenv install
 - export FLASK_APP=index.py
 - flask run 
-
--
--
